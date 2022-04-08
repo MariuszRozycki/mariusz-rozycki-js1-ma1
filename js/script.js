@@ -37,3 +37,27 @@ for (let paragraph of paragraphs) {
 const resultsContainer = document.querySelector(".results");
 resultsContainer.innerHTML = `<p>New paragraph</p>`;
 resultsContainer.style.backgroundColor = "yellow";
+
+
+// Question 7
+const cats = [
+  {
+    name: "Blob",
+    age: 10
+  },
+  {
+    name: "Harold",
+  },
+  {
+    name: "Blurt",
+    age: 21
+  }
+];
+
+function showCatsNames(list) {
+  for (let cat of list) {
+    console.log(cat.name);
+  }
+}
+
+showCatsNames(cats);

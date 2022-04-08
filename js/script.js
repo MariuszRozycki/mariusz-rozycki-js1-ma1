@@ -31,3 +31,9 @@ for (let paragraph of paragraphs) {
   paragraph.style.color = "red";
 
 }
+
+
+// Question 6
+const resultsContainer = document.querySelector(".results");
+resultsContainer.innerHTML = `<p>New paragraph</p>`;
+resultsContainer.style.backgroundColor = "yellow";
